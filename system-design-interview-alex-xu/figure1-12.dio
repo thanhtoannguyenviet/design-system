@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="6qiPhhiFqZ9QnakIsOdb" name="Page-1">
+        <mxGraphModel dx="650" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="http request" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="User A" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="48" height="28.000000000000004" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Server 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="26" y="211.5" width="156" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="12">
+                    <mxGeometry x="54" y="38.5" width="48.25" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Session data for User A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="12">
+                    <mxGeometry x="3.1300000000000026" y="108.5" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Profile image for User A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="12">
+                    <mxGeometry x="3" y="148.5" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="http request" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="User B" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" vertex="1" parent="1">
+                    <mxGeometry x="274" y="120" width="48" height="28.000000000000004" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Server 2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="211.5" width="156" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="26">
+                    <mxGeometry x="54" y="38.5" width="48.25" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Session data for User B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="26">
+                    <mxGeometry x="3.1300000000000026" y="108.5" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Profile image for User B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="26">
+                    <mxGeometry x="3" y="148.5" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="http request" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="User C" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" vertex="1" parent="1">
+                    <mxGeometry x="464" y="120" width="48" height="28.000000000000004" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Server 3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="211.5" width="156" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="32">
+                    <mxGeometry x="54" y="38.5" width="48.25" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Session data for User C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="32">
+                    <mxGeometry x="3.1300000000000026" y="108.5" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Profile image for User C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="32">
+                    <mxGeometry x="3" y="148.5" width="150" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
